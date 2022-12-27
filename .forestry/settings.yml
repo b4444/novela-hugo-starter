@@ -16,8 +16,6 @@ sections:
   match: "**/*"
   templates:
   - post
-- type: heading
-  label: Котомка
 - type: directory
   path: content/authors
   label: Создатели
