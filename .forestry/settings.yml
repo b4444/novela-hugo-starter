@@ -5,29 +5,29 @@ admin_path: ree-boot
 webhook_url: 
 sections:
 - type: heading
-  label: Content
+  label: Оглавление
 - type: document
   path: content/_index.md
-  label: Home
+  label: Регулярные вырождения
 - type: directory
   path: content/post
-  label: Posts
+  label: Записки
   create: all
   match: "**/*"
   templates:
   - post
 - type: heading
-  label: Data
+  label: Котомка
 - type: directory
   path: content/authors
-  label: Authors
+  label: Создатели
   create: all
   match: "**/_index.md"
   templates:
   - author
 - type: directory
   path: config/_default
-  label: Config
+  label: Настройки
   create: all
   match: "**/*"
   new_doc_ext: yaml
